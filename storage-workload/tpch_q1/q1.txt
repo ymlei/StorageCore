@@ -1,0 +1,11 @@
+RISC-V
+
+Page count: 64
+Number of queries = 1
+TIME init program: total time = 0.001060 (s), iter = 1, time/iter = 1060.000000 (us)
+==============================================================
+TIME IO: total time = 0.040048 (s), iter = 2, time/iter = 20024.000000 (us)
+TIME calc: total time = 0.255205 (s), iter = 2, time/iter = 127602.500000 (us)
+==============================================================
+TIME whole program: total time = 0.306516 (s), iter = 1, time/iter = 306516.000000 (us)
+Exiting @ tick 309995882000 because exiting with last active thread context

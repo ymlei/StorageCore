@@ -1,0 +1,91 @@
+X86
+
+Page count: 100000
+Number of queries = 1
+TIME init program: total time = 0.001083 (s), iter = 1, time/iter = 1083.400000 (us)
+==============================================================
+TIME IO: total time = 64.126162 (s), iter = 3125, time/iter = 20520.371680 (us)
+TIME calc: total time = 4.476981 (s), iter = 3125, time/iter = 1432.633824 (us)
+
+ARM
+Page count: 1023
+Number of queries = 1
+TIME init program: total time = 0.000130 (s), iter = 1, time/iter = 130.000000 (us)
+==============================================================
+TIME IO: total time = 0.000030 (s), iter = 32, time/iter = 0.937500 (us)
+TIME calc: total time = 1.001879 (s), iter = 32, time/iter = 31308.718750 (us)
+0 revenue = 0
+
+Another ARM
+Page count: 1023
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.000209 (s), iter = 1, time/iter = 209.000000 (us)
+==============================================================
+warn: ignoring syscall nanosleep(...)
+      (further warnings will be suppressed)
+TIME IO: total time = 0.000056 (s), iter = 32, time/iter = 1.750000 (us)
+TIME calc: total time = 1.013886 (s), iter = 32, time/iter = 31683.937500 (us)
+0 revenue = 0
+
+ARM
+Page count: 1023
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.000208 (s), iter = 1, time/iter = 208.000000 (us)
+==============================================================
+TIME IO: total time = 0.640077 (s), iter = 32, time/iter = 20002.406250 (us)
+TIME calc: total time = 1.008902 (s), iter = 32, time/iter = 31528.187500 (us)
+
+Page count: 1023
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.000214 (s), iter = 1, time/iter = 214.000000 (us)
+==============================================================
+TIME IO: total time = 0.640065 (s), iter = 32, time/iter = 20002.031250 (us)
+TIME calc: total time = 0.997083 (s), iter = 32, time/iter = 31158.843750 (us)
+0 revenue = 0
+==============================================================
+TIME whole program: total time = 1.638007 (s), iter = 1, time/iter = 1638007.000000 (us)
+Exiting @ tick 1639371253000 because exiting with last active thread context
+
+ARM TimingCPU
+Page count: 1023
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.000709 (s), iter = 1, time/iter = 709.000000 (us)
+==============================================================
+TIME IO: total time = 0.640276 (s), iter = 32, time/iter = 20008.625000 (us)
+TIME calc: total time = 4.864432 (s), iter = 32, time/iter = 152013.500000 (us)
+0 revenue = 0
+==============================================================
+TIME whole program: total time = 5.508084 (s), iter = 1, time/iter = 5508084.000000 (us)
+Exiting @ tick 5512870355000 because exiting with last active thread context
+
+
+
+
+RISCV MinorCPU
+Page count: 1023
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.001989 (s), iter = 1, time/iter = 1989.000000 (us)
+==============================================================
+TIME IO: total time = 0.640726 (s), iter = 32, time/iter = 20022.687500 (us)
+TIME calc: total time = 0.837204 (s), iter = 32, time/iter = 26162.625000 (us)
+0 revenue = 0
+==============================================================
+TIME whole program: total time = 1.486937 (s), iter = 1, time/iter = 1486937.000000 (us)
+Exiting @ tick 1490741704000 because exiting with last active thread context
+
+RISCV TimingCPU
+Page count: 1023
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.006117 (s), iter = 1, time/iter = 6117.000000 (us)
+==============================================================
+TIME IO: total time = 0.642858 (s), iter = 32, time/iter = 20089.312500 (us)
+TIME calc: total time = 3.394791 (s), iter = 32, time/iter = 106087.218750 (us)
+0 revenue = 0
+==============================================================
+TIME whole program: total time = 4.072809 (s), iter = 1, time/iter = 4072809.000000 (us)

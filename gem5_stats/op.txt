@@ -1,0 +1,11 @@
+Benchmarks	system.cpu.op_class_0::IntAlu	system.cpu.op_class_0::IntMult	system.cpu.op_class_0::MemRead	system.cpu.op_class_0::MemWrite	system.cpu.op_class_0::total
+stats_arm_Minor_tpch_query1_32pages	28066309	59029	9260413	8033359	45494400
+stats_riscv_Minor_tpch_query1_32pages	22987240	58878	7500286	6100956	36697856
+stats_arm_Minor_tpch_query6	2066638	14744	490232	467935	3039604
+stats_riscv_Minor_tpch_query6	1289325	14613	308996	252319	1877822
+stats_arm_Minor_tpch_query14_8_8	2036620	14868	479983	466540	2998171
+stats_riscv_Minor_tpch_query14_8_8	1265843	14655	304269	255639	1852988
+stats_arm_MinorCPU_matrix	178370	41238	192367	28810	440785
+stats_riscv_MinorCPU_matrix	349440	41194	191274	27908	609826
+stats_arm_MinorCPU_state	220289	44	130414	41051	391798
+stats_riscv_MinorCPU_state	226394	0	132975	40045	399415

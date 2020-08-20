@@ -1,0 +1,32 @@
+ARM
+
+Page count1: 64
+Page count2: 128
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.000237 (s), iter = 1, time/iter = 237.000000 (us)
+==============================================================
+TIME IO1: total time = 0.040005 (s), iter = 2, time/iter = 20002.500000 (us)
+TIME calc1: total time = 0.059031 (s), iter = 2, time/iter = 29515.500000 (us)
+TIME IO2: total time = 0.040008 (s), iter = 2, time/iter = 20004.000000 (us)
+TIME calc2: total time = 0.060850 (s), iter = 2, time/iter = 30425.000000 (us)
+64 128 0 0 nan
+==============================================================
+TIME whole program: total time = 0.201031 (s), iter = 1, time/iter = 201031.000000 (us)
+Exiting @ tick 202311629000 because exiting with last active thread context
+
+RISCV
+Page count1: 64
+Page count2: 128
+Number of queries = 1
+FLASH_ACCESS_TIME: 20000
+TIME init program: total time = 0.002421 (s), iter = 1, time/iter = 2421.000000 (us)
+==============================================================
+TIME IO1: total time = 0.040034 (s), iter = 2, time/iter = 20017.000000 (us)
+TIME calc1: total time = 0.051059 (s), iter = 2, time/iter = 25529.500000 (us)
+TIME IO2: total time = 0.040042 (s), iter = 2, time/iter = 20021.000000 (us)
+TIME calc2: total time = 0.045436 (s), iter = 2, time/iter = 22718.000000 (us)
+64 128 0 0 nan
+==============================================================
+TIME whole program: total time = 0.189125 (s), iter = 1, time/iter = 189125.000000 (us)
+Exiting @ tick 192418134000 because exiting with last active thread context
